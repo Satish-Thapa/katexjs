@@ -47,8 +47,8 @@ const MyEditor = () => {
     const katexPlugin = createKaTeXPlugin({
       katex, // the katex object or a wrapper defining render() and __parse().
       doneContent: {
-        valid: "Update",
-        invalid: "Invalid TeX",
+        valid: "Update the katex",
+        invalid: "Invalid TeX found",
       },
       insertContent: "∑",
       MathInput: null, // Sett to the MathInput element to use MathInput
